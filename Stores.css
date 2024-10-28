@@ -1,0 +1,376 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e5e1ee;
+    border-radius: 5px;
+}
+
+.nav{
+    color: rgb(3, 36, 3);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+HEAD {
+    padding-bottom: 60px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: rgb(3, 36, 3);
+    text-decoration: none;
+    font-size: 10px;
+    transition: color 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #3498db;
+}
+
+@media  screen and (max-width: 800px) {
+    .nav-links {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 60px;
+        background-color: rgb(9, 85, 9);
+        width: 100%;
+        height: 100hv;
+        flex: auto;
+    }
+
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+
+}
+
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    background-color: #f4f4f4;
+    height: 100%;
+    background-repeat: repeat;
+}
+
+.hero-text {
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: rgb(176, 176, 255);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image {
+    
+}
+
+.cardboy {
+    background-color: white;
+    padding: 0px;
+    border-radius: 10px;
+    align-content: center;
+    border: 1px solid white;
+    margin: 10px;
+    width: 300px;
+}
+
+.cardboy:hover {
+    background-color: #3498db;
+    transform: translateY(-10px);
+    transform: ease 0.7s ;
+}
+
+.cardgirl {
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: WHITE;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.cardheader {
+    display: flex;
+    gap: 10px;
+    border: 1px solid white;
+    box-shadow: 4px 4px 5px #333;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    width: fit-content;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.carddescription {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.Btn {
+    padding: 10px 20px;
+    background-color: rgb(3, 36, 3);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}   
+
+h2 {
+    color: orangered;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.service-hero {
+    height: 100vh;
+    background: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url(Image/charismatic-cheerful-attractive-african-american-woman-curly-haircut-wearing-shirt-holding-hands-pockets-confident-outgoing-smiling-talking-pleasant-conversation-feeling-self-assured-relaxed.png);
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    padding-left: 30px;
+}
+
+.service-text {
+    color: navy;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.service-button {
+        padding: 20px 30px;
+        background-color: cornflowerblue ;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: small;
+}
+
+.service-d {
+    padding-bottom: 40px;
+}
+
+.Sb {
+    display: grid;
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pic {
+    align-self: left;
+    border-radius: 10px;
+    display: inline-block;
+    width: 25%;
+    height: 10%;
+}
+
+.Sb-text {
+    text-align: right;
+}
+
+.Sb text h2 {
+    font-size: 30px;
+    text-align: right;
+}
+
+.about-section {
+    padding: 3rem 0;
+    background-color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.team {
+    display: flex;
+    margin-bottom: 2rem;
+    color: #333;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.team-member {
+    text-align: center;
+    width: 30%;
+    display: grid;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.team-memberA {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.team-memberA:hover {
+    background-color: #f1ecec;
+    transition: background-color 0.9s ease;
+    transition: box-shadow 0.9s ease;
+    box-shadow: 0px 4px 20px black;
+    border-radius: 20px;
+}
+
+.team-member:hover {
+    background-color: rgb(239, 213, 177);
+    transition: background-color 0.9s ease;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.team-member h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #777;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.hero-background {
+    background-image: url(Image/web-design-technology-browsing-programming-concept.jpg);
+}
+
+.form-container {
+    background: rgba(255, green, blue, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 6px;
+    color: #fff;
+}
+
+.input-group input, .input-group select, .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    outline: none;
+}
+
+.input-group input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+} 
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 123, 255, 0.9);
+}
+
+@media (max-width: 768px) {
+    .form-container{
+        padding: 20px;
+    }
+}
+
+.rgba {
+    background-color: rgba(255, 200, 50, 0.9);
+}

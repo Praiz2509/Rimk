@@ -1,0 +1,54 @@
+body {
+    background: url(Image/web-design-technology-browsing-programming-concept.jpg);
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.glassy-form {
+    width: 400px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+.glassy-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.glassy-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+.glassy-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(196, 156, 104);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in;
+}
+
+.glassy-form button:hover {
+    background-color: rgba(0, 128, 255, 1);
+}

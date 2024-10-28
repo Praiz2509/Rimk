@@ -1,0 +1,128 @@
+.Christ {
+    width: 18rem; 
+    background-color: #333;
+    color: #fff; 
+}
+
+.Christ:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.Jesus {
+    background-color: #eee;
+    color: #333; 
+
+}
+
+.Jesus:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.AA {
+    font-size: 60px;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+}
+
+
+.bi {
+    color: gold;
+}
+
+.bi:hover {
+    color: red;
+}
+
+.position-relative {
+    position: relative;
+}
+.image-one {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image-two {
+    top: 50px;
+    left: 30px;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.text-side {
+    padding-left: 70px;
+}
+
+.text-side h1 {
+    color:#343a40 ;
+    margin-bottom: 20px;
+}
+
+.text-side p{
+    margin-bottom: 20px;
+    color: #6c757d;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+}
+.team {
+    display: flex;
+    margin-bottom: 2rem;
+    color: #333;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.team-member {
+    text-align: center;
+    width: 30%;
+    display: grid;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.team-memberA {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.team-member h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #777;
+}
+
+input {
+    width: 200px;
+    padding: 5px 10px;
+    background-color: rgb(233, 233, 255);
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 450px;
+    height: 150px;
+    background-color: rgb(233, 233, 255);
+    border: none;
+    border-radius: 5px;
+
+}

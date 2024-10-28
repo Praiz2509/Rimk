@@ -1,0 +1,29 @@
+.bd {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+body {
+    background-color: gold;
+}
+
+.t1 {
+    margin-left: 50px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 62.5px;
+    font-weight: 100;
+    margin: 0px;
+}
+
+h3, h4 {
+    font-weight: 100;
+}
+
+.sp {
+    color: white;
+    background-color: black;
+}

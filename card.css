@@ -1,0 +1,29 @@
+.cardboy {
+    background-color: white;
+    padding: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+
+.cardgirl {
+    padding: 10px;
+}
+
+
+
+.butt {
+    color: blue;
+    background-color: rgb(213, 213, 255);
+    padding: 10px 20px;
+}
+
+.cardheader {
+    background-color: rgb(223, 216, 236);
+    display: flex;
+    gap: 10px;
+}
+
+.pic {
+    size: 100px;
+}

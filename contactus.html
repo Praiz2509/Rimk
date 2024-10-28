@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">IKEGOD Stores</a>
+        </div>
+        <div class="text-end" style="text-wrap: nowrap;">
+            <div class="collapse navbar-collapse text-end" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="Stores.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html" aria-expanded="false">
+                    Blog
+                  </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="contactus.html">Contact us</a>
+                  </li>
+                  
+                <li class="nav-item">
+                    <a class="nav-link" href="service.html">Services</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+              </ul>
+            </div>
+        </div>
+        </nav>
+      </header>
+
+    <main>
+      <section>
+          <div class="container mt-5">
+              <form action="">
+                  <h2 class="text-center mb-4">Contact Us</h2>
+                  <div class="form-group">
+                      <label for="full-name">Full Name</label>
+                      <input type="text" class="form-control" id="full-name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="eMail">Email</label>
+                      <input type="email" class="form-control" id="eMail" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="DOB">Date of Birth</label>
+                      <input type="date" class="form-control" id="DOB" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="Number">Phone Number</label>
+                      <input type="tel" class="form-control" id="Number" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="gender">Gender</label>
+                      <select name="gender" id="gender" class="form-control">
+                          <option value="" disabled selected>Select your Gender</option>
+                          <option value="male">Male</option>
+                          <option value="female">Female</option>
+                          <option value="others">Others</option>
+                      </select>
+                  </div>
+                  <div class="form-group">
+                      <label for="address">Address</label>
+                      <textarea name="Address" id="address" rows="4" class="form-control" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block mt-5">Submit</button>
+              </form>
+          </div>
+      </section>
+      
+      
+    </main>
+    <script src="Bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: red;
+    padding: 10px;
+    padding-bottom: 10px;
+    width: 60px;
+    border-radius: 5px;
+    display: flex;
+    -webkit-text-fill-color: white;
+    font-family: Arial, sans-serif;
+    height: fit-content;
+}
+
+
+
+.section {
+    background-image: url(Image/biii.jpg);
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+    -webkit-text-fill-color: white;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+}
+
+h5 {
+    font-family: Arial, sans-serif;
+    -webkit-text-fill-color: white;
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 17px;
+    background-color: rgb(230, 1, 1);
+    -webkit-text-fill-color: white;
+    font-family: Arial, sans-serif;
+    width: 170px;
+    
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.🌹 {
+    width: 400px;
+    border: 1px solid #ddd;
+    background-color: black;
+    padding: 10px;
+    opacity: 0.5;
+    padding: 20px;
+}
